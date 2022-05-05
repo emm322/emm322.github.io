@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>daj0sin's portfolio</title>
+    <!---->
+    <meta name="author" content="Ellie Montenegro" />
+    <meta name="description" content="Art portfolio website." />
+    <meta name="keywords" content="Art, portfolio " />
+    <!---->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://kit.fontawesome.com/c10ff58593.js" crossorigin="anonymous"></script>
+    <!--font 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=PT+Serif&display=swap" rel="stylesheet">
+    <!--font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Varela+Round&display=swap" rel="stylesheet">
+    <!--fade in script-->
+    <script src="js/fadein.js"></script>
+    <!--accordion script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/accordion.css" />
+
+  </head>
+  <!---->
+  <body id="body">
+    <div class="grid">
+      <nav>
+          <button class="home-bttn" onclick="location='./index.html'">Home</button>
+          <button class="port-bttn" onclick="location='./portfolio.html'">Portfolio</button>
+          <button class="con-bttn" onclick="location='./contact.html'">Contact</button>
+          <p class="twt-bttn"><a href="https://twitter.com/daj0sin"><i class="fa-brands fa-twitter"></i></a></p>
+          <p class="inst-bttn"><a href="https://instagram.com/daj0sin/"><i class="fa-brands fa-instagram"></i></a></p>
+          <p class="ttk-bttn"><a href="https://tiktok.com/@daj0sin"><i class="fa-brands fa-tiktok"></i></a></p>
+      </nav>
+
+      <main id="main-1">
+        <div id="intro">
+          <img id="icon" src="images/icon.png" alt="Icon of Kaeya from Genshin Impact."/>
+          <div id="intro-content">
+            <header>
+              <h1 id="username">daj0sin</h1>
+            </header>
+              <p id="location"><i class="fa-solid fa-location-dot"></i> USA</p>
+              <p id="sm">Student, Artist</p>
+              <button id="com-status">Commissions Status: Closed</button>
+          </div>
+        </div>
+        <div id="my-accordion" class="accordionjs">
+          <div>
+            <button id="label">About me</button>
+              <div id="content">
+                <p id="c1">daj0sin</p>
+                <p id="c2">a.k.a. Ellie</p>
+                <p id="c3">19, Studio Art Major</p>
+                <p id="c4">Digital artist that mostly creates fan art content.</p>
+              </div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="nav-footer">
+          <button class="home-ftr" onclick="location='./index.html'">Home</button>
+          <button class="port-ftr" onclick="location='./portfolio.html'">Portfolio</button>
+          <button class="cont-ftr" onclick="location='./contact.html'">Contact</button>
+        </div>
+        <div class="socials-ftr">
+          <p class="twt-ftr"><a href="https://twitter.com/daj0sin"><i class="fa-brands fa-twitter"></i></a></p>
+          <p class="inst-ftr"><a href="https://instagram.com/daj0sin/"><i class="fa-brands fa-instagram"></i></a></p>
+          <p class="ttk-ftr"><a href="https://tiktok.com/@daj0sin"><i class="fa-brands fa-tiktok"></i></a></p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/accordion.min.js"></script>
+    <script>
+    jQuery(document).ready(function($){
+        $("#my-accordion").accordionjs();
+    });
+    </script>
+  </body>
+</html>

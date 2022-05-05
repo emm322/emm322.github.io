@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>daj0sin's portfolio</title>
+    <!---->
+    <meta name="author" content="Ellie Montenegro" />
+    <meta name="description" content="Art portfolio website." />
+    <meta name="keywords" content="Art, portfolio " />
+    <!---->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <!--lightbox-->
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+
+    <script src="https://kit.fontawesome.com/c10ff58593.js" crossorigin="anonymous"></script>
+    <!--font 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=PT+Serif&display=swap" rel="stylesheet">
+    <!--font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Varela+Round&display=swap" rel="stylesheet">
+    <!--fade in script-->
+    <script src="js/fadein.js"></script>
+  </head>
+  <!---->
+  <body id="body">
+    <div id="grid-2">
+      <nav>
+          <button class="home-bttn" onclick="location='./index.html'">Home</button>
+          <button class="port-bttn" onclick="location='./portfolio.html'">Portfolio</button>
+          <button class="con-bttn" onclick="location='./contact.html'">Contact</button>
+          <p class="twt-bttn"><a href="https://twitter.com/daj0sin"><i class="fa-brands fa-twitter"></i></a></p>
+          <p class="inst-bttn"><a href="https://instagram.com/daj0sin/"><i class="fa-brands fa-instagram"></i></a></p>
+          <p class="ttk-bttn"><a href="https://tiktok.com/@daj0sin"><i class="fa-brands fa-tiktok"></i></a></p>
+      </nav>
+
+      <main id="main-2">
+        <header>
+          <h1 id="portfolio">Portfolio</h1>
+        </header>
+        <div id="gallery">
+          <img id="l-a-f" src="images/lost-and-found-small.png" alt="Art of Hatsune Miku based on sasakure.uk's 'Lost and Found'" data-lightbox="mygallery" onclick="location='./portfolio/lost-and-found-full.png'" />
+          <img id ="k-s" src="images/kaeya-sketch-small.png" alt="Sketch of Kaeya from Genshin Impact" data-lightbox="mygallery" onclick="location='./portfolio/kaeya-sketch-full.png'" />
+          <img id="b-t" src="images/blue-three-small.png" alt="Character designs for Kaeya, Hatsune Miku, and Rainbow Dash" data-lightbox="mygallery" onclick="location='./portfolio/blue-three-full.png'" />
+          <img id="tl" src="images/thomaluc-small.png" alt="Art of Diluc and Thoma" data-lightbox="mygallery" onclick="location='./portfolio/thomaluc-full.png'" />
+        </div>
+      </main>
+
+      <footer>
+        <div class="nav-footer">
+          <button class="home-ftr" onclick="location='./index.html'">Home</button>
+          <button class="port-ftr" onclick="location='./portfolio.html'">Portfolio</button>
+          <button class="cont-ftr" onclick="location='./contact.html'">Contact</button>
+        </div>
+        <div class="socials-ftr">
+          <p class="twt-ftr"><a href="https://twitter.com/daj0sin"><i class="fa-brands fa-twitter"></i></a></p>
+          <p class="inst-ftr"><a href="https://instagram.com/daj0sin/"><i class="fa-brands fa-instagram"></i></a></p>
+          <p class="ttk-ftr"><a href="https://tiktok.com/@daj0sin"><i class="fa-brands fa-tiktok"></i></a></p>
+        </div>
+      </footer>
+    </div>
+    <script src= "js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
