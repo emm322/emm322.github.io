@@ -369,7 +369,6 @@ footer button {
 
 footer p a {
   text-decoration: none;
-  color: #fff;
 }
 
 footer button:hover {
@@ -379,7 +378,7 @@ footer button:hover {
 
 footer a:link, footer a:visited {
   font-size: 32px;
-  color: #3898ea;
+  color: #fff;
 }
 
 footer a:hover {
@@ -412,10 +411,6 @@ footer a:active {
   background-color: #3898ea;
   justify-items: center;
   margin-top: 20px;
-}
-
-.socials-ftr p a {
-  color: #fff;
 }
 
 .twt-ftr {
