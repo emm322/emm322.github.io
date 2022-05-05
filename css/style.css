@@ -32,7 +32,7 @@ nav {
 }
 
 nav button {
-  font-size: 18px;
+  font-size: 22px;
   font-family: 'Dosis', sans-serif;
   border-radius: 100px;
   background-color: #57affb;
@@ -178,7 +178,7 @@ nav a:link, nav a:visited {
   font-family: 'Dosis', sans-serif;
   border: none;
   border-radius: 100px;
-  font-size: 18px;
+  font-size: 20px;
   transition-duration: 0.4s;
 }
 
@@ -356,7 +356,7 @@ footer {
 }
 
 footer button {
-  font-size: 18px;
+  font-size: 22px;
   font-family: 'Dosis', sans-serif;
   border-radius: 100px;
   background-color: #57affb;
