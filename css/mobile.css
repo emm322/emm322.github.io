@@ -1,0 +1,12 @@
+@media (max-width: 1530px) {
+
+	#gallery {
+	  grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+	  grid-template-areas:
+	    "l-a-f"
+			"k-s"
+			"b-t"
+	    "t-l";
+	}
+}
